@@ -1,0 +1,9 @@
+{
+  "additionalFiles": "../..",
+  "compiler.optimization_flags": "-Os",
+  "customBuildProperties": "",
+  "fqbn": "esp32:esp32:heltec_wifi_lora_32_V3",
+  "hardwareFolders": "/home/cursor/.arduino15/packages",
+  "otherLibrariesFolders": "/home/cursor/Arduino/libraries",
+  "sketchLocation": "/home/cursor/SECURITY/ble-scanner/heltec-ble-scanner"
+}

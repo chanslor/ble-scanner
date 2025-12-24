@@ -1,0 +1,17 @@
+# Binary
+server
+ble-server
+
+# Database
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Environment
+.env
+.env_creds
+
+# IDE
+.vscode/
+.idea/

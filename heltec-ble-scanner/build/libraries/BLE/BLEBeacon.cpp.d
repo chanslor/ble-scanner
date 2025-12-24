@@ -1,0 +1,36 @@
+/home/cursor/SECURITY/ble-scanner/heltec-ble-scanner/build/libraries/BLE/BLEBeacon.cpp.o: \
+ /home/cursor/.arduino15/packages/esp32/hardware/esp32/3.3.5/libraries/BLE/src/BLEBeacon.cpp \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/soc/esp32s3/include/soc/soc_caps.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/qio_qspi/include/sdkconfig.h \
+ /home/cursor/.arduino15/packages/esp32/hardware/esp32/3.3.5/libraries/BLE/src/BLEBeacon.h \
+ /home/cursor/.arduino15/packages/esp32/hardware/esp32/3.3.5/libraries/BLE/src/BLEUUID.h \
+ /home/cursor/.arduino15/packages/esp32/hardware/esp32/3.3.5/cores/esp32/WString.h \
+ /home/cursor/.arduino15/packages/esp32/hardware/esp32/3.3.5/cores/esp32/pgmspace.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/bt/host/nimble/nimble/nimble/host/include/host/ble_uuid.h \
+ /home/cursor/.arduino15/packages/esp32/hardware/esp32/3.3.5/cores/esp32/esp32-hal-log.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/esp_timer/include/esp_timer.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/newlib/platform_include/stdio.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/esp_common/include/esp_err.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/esp_common/include/esp_compiler.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/esp_hw_support/include/esp_etm.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/esp_rom/esp32s3/include/esp32s3/rom/ets_sys.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/soc/esp32s3/include/soc/soc.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/esp_common/include/esp_assert.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/esp_common/include/esp_bit_defs.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/soc/esp32s3/register/soc/reg_base.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/log/include/esp_log.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/esp_rom/include/esp_rom_sys.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/soc/esp32s3/include/soc/reset_reasons.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/log/include/esp_log_config.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/log/include/esp_log_level.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/log/include/esp_log_color.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/log/include/esp_log_buffer.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/log/include/esp_log_timestamp.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/log/include/esp_log_write.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/log/include/esp_log_format.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/log/include/esp_log_args.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/esp_common/include/esp_macros.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/esp_common/include/esp_assert.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/log/include/esp_log_attr.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/esp_common/include/esp_attr.h \
+ /home/cursor/.arduino15/packages/esp32/tools/esp32-arduino-libs/idf-release_v5.5-9bb7aa84-v2/esp32s3/include/log/include/esp_private/log_attr.h
