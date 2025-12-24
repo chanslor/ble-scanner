@@ -5,7 +5,7 @@ Bluetooth Low Energy (BLE) device scanner for business security monitoring on ES
 ![Hardware](https://img.shields.io/badge/Hardware-ESP32--3248S035C-blue)
 ![Display](https://img.shields.io/badge/Display-ST7796%20480x320-green)
 ![BLE](https://img.shields.io/badge/Bluetooth-BLE%205.0-blue)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+![License](https://img.shields.io/badge/License-GPL--3.0-blue)
 
 ## Table of Contents
 
@@ -21,6 +21,7 @@ Bluetooth Low Energy (BLE) device scanner for business security monitoring on ES
 - [Device Management](#device-management)
 - [Alerting](#alerting)
 - [Audio Alerts](#audio-alerts)
+- [Cloud Dashboard](#cloud-dashboard)
 - [Troubleshooting](#troubleshooting)
 - [Project Structure](#project-structure)
 - [Security Considerations](#security-considerations)
@@ -246,6 +247,37 @@ No resistor needed for passive piezo buzzers.
 | New device detected | 1 short beep |
 | Device added to whitelist | 2 ascending tones |
 | Scan complete | 1 soft click (optional) |
+
+## Cloud Dashboard
+
+The BLE Scanner includes a cloud-based dashboard for real-time monitoring from anywhere. The dashboard is hosted on Fly.io and receives data from ESP32-S3 based scanners (Heltec WiFi LoRa 32 V3).
+
+![BLE Scanner Cloud Dashboard](server-example.png)
+
+### Features
+
+- **Real-time Updates:** WebSocket connection for live device detection
+- **Sortable Columns:** Click any column header to sort (Time, Scanner, MAC, Name, RSSI, etc.)
+- **Signal Visualization:** RSSI bars with color coding (green/yellow/red)
+- **Multi-Scanner Support:** Monitor multiple scanners from one dashboard
+- **Statistics:** Total logs, unique devices, active scanners, logs per hour
+
+### Dashboard URL
+
+**Live Dashboard:** [https://ble-scanner.fly.dev](https://ble-scanner.fly.dev)
+
+### Heltec ESP32-S3 Scanner
+
+The cloud posting feature requires **Heltec WiFi LoRa 32 V3** (ESP32-S3) hardware due to memory constraints. The ESP32-S3 has sufficient memory to run BLE scanning and HTTPS posting simultaneously.
+
+See the `heltec-ble-scanner/` directory for the cloud-connected scanner code.
+
+| Feature | ESP32 (Sunton) | ESP32-S3 (Heltec) |
+|---------|----------------|-------------------|
+| BLE Scanning | ✅ | ✅ |
+| Local Display | ✅ 480x320 TFT | ✅ 128x64 OLED |
+| Cloud Posting | ❌ Memory fails | ✅ Works |
+| SD Card Logging | ✅ | Not implemented |
 
 ## WiFi Configuration
 
@@ -688,7 +720,7 @@ For 24/7 operation:
 
 ## License
 
-MIT License - See LICENSE file
+GNU General Public License v3.0 - See [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
